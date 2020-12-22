@@ -1,0 +1,333 @@
+{"frames": {
+
+"Avatar_frame.png":
+{
+	"frame": {"x":185,"y":1705,"w":185,"h":229},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":185,"h":229},
+	"sourceSize": {"w":185,"h":229}
+},
+"avatar_placeholder.png":
+{
+	"frame": {"x":1879,"y":616,"w":135,"h":134},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":135,"h":134},
+	"sourceSize": {"w":135,"h":134}
+},
+"brilliant.png":
+{
+	"frame": {"x":1967,"y":79,"w":69,"h":56},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":56},
+	"sourceSize": {"w":69,"h":56}
+},
+"Build_active.png":
+{
+	"frame": {"x":1680,"y":632,"w":186,"h":142},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":142},
+	"sourceSize": {"w":186,"h":142}
+},
+"build_btn.png":
+{
+	"frame": {"x":1680,"y":1,"w":285,"h":102},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":285,"h":102},
+	"sourceSize": {"w":285,"h":102}
+},
+"Build_nonactive.png":
+{
+	"frame": {"x":1680,"y":776,"w":186,"h":142},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":142},
+	"sourceSize": {"w":186,"h":142}
+},
+"button_back.png":
+{
+	"frame": {"x":1,"y":1705,"w":182,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":182,"h":246},
+	"sourceSize": {"w":182,"h":246}
+},
+"button_plus.png":
+{
+	"frame": {"x":1904,"y":549,"w":52,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":52},
+	"sourceSize": {"w":52,"h":52}
+},
+"Button_under.png":
+{
+	"frame": {"x":1,"y":940,"w":1093,"h":102},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":170,"y":771,"w":1093,"h":102},
+	"sourceSize": {"w":2030,"h":937}
+},
+"CA_Icon.png":
+{
+	"frame": {"x":1971,"y":752,"w":43,"h":27},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":43,"h":27},
+	"sourceSize": {"w":43,"h":27}
+},
+"CL_Icon.png":
+{
+	"frame": {"x":1971,"y":781,"w":43,"h":27},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":43,"h":27},
+	"sourceSize": {"w":43,"h":27}
+},
+"coin.png":
+{
+	"frame": {"x":1868,"y":856,"w":82,"h":83},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":82,"h":83},
+	"sourceSize": {"w":83,"h":83}
+},
+"CVL_Icon.png":
+{
+	"frame": {"x":1971,"y":810,"w":43,"h":27},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":43,"h":27},
+	"sourceSize": {"w":43,"h":27}
+},
+"decor_shipbuild.png":
+{
+	"frame": {"x":2038,"y":79,"w":9,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":9,"h":108},
+	"sourceSize": {"w":9,"h":108}
+},
+"Exchange_active.png":
+{
+	"frame": {"x":1680,"y":920,"w":186,"h":142},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":142},
+	"sourceSize": {"w":186,"h":142}
+},
+"exchange_btn.png":
+{
+	"frame": {"x":1680,"y":105,"w":285,"h":102},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":285,"h":102},
+	"sourceSize": {"w":285,"h":102}
+},
+"Exchange_nonactive.png":
+{
+	"frame": {"x":372,"y":1705,"w":186,"h":142},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":142},
+	"sourceSize": {"w":186,"h":142}
+},
+"field_count.png":
+{
+	"frame": {"x":1680,"y":585,"w":197,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":197,"h":45},
+	"sourceSize": {"w":197,"h":45}
+},
+"frame_bg.png":
+{
+	"frame": {"x":1,"y":1,"w":1677,"h":937},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1677,"h":937},
+	"sourceSize": {"w":1677,"h":937}
+},
+"home_icon.png":
+{
+	"frame": {"x":1959,"y":222,"w":87,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":97},
+	"sourceSize": {"w":87,"h":97}
+},
+"Item_tab_base.png":
+{
+	"frame": {"x":1680,"y":209,"w":277,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":277,"h":83},
+	"sourceSize": {"w":277,"h":83}
+},
+"Item_tab_idle.png":
+{
+	"frame": {"x":1680,"y":294,"w":277,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":277,"h":83},
+	"sourceSize": {"w":277,"h":83}
+},
+"Main_container.png":
+{
+	"frame": {"x":1,"y":1064,"w":968,"h":639},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":968,"h":639},
+	"sourceSize": {"w":969,"h":640}
+},
+"Medal_of_Honor.png":
+{
+	"frame": {"x":1959,"y":409,"w":82,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":82,"h":111},
+	"sourceSize": {"w":82,"h":111}
+},
+"medalofhonor_slate.png":
+{
+	"frame": {"x":1639,"y":1064,"w":368,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":368,"h":76},
+	"sourceSize": {"w":368,"h":76}
+},
+"oil.png":
+{
+	"frame": {"x":1967,"y":137,"w":61,"h":83},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":0,"w":61,"h":83},
+	"sourceSize": {"w":83,"h":83}
+},
+"Orders_active.png":
+{
+	"frame": {"x":560,"y":1705,"w":186,"h":142},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":142},
+	"sourceSize": {"w":186,"h":142}
+},
+"Orders_nonactive.png":
+{
+	"frame": {"x":748,"y":1705,"w":186,"h":142},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":142},
+	"sourceSize": {"w":186,"h":142}
+},
+"paw_tap.png":
+{
+	"frame": {"x":1959,"y":522,"w":82,"h":92},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":82,"h":92},
+	"sourceSize": {"w":82,"h":92}
+},
+"prize_icon.png":
+{
+	"frame": {"x":1967,"y":1,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Retire_active.png":
+{
+	"frame": {"x":936,"y":1705,"w":186,"h":142},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":142},
+	"sourceSize": {"w":186,"h":142}
+},
+"Retire_nonactive.png":
+{
+	"frame": {"x":963,"y":1849,"w":186,"h":142},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":142},
+	"sourceSize": {"w":186,"h":142}
+},
+"Ribbon.png":
+{
+	"frame": {"x":1,"y":1953,"w":960,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":960,"h":69},
+	"sourceSize": {"w":960,"h":69}
+},
+"roundroundbabyroundround.png":
+{
+	"frame": {"x":1959,"y":321,"w":86,"h":86},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":86,"h":86},
+	"sourceSize": {"w":86,"h":86}
+},
+"Ship_tab_base.png":
+{
+	"frame": {"x":1680,"y":379,"w":277,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":277,"h":83},
+	"sourceSize": {"w":277,"h":83}
+},
+"Ship_tab_idle.png":
+{
+	"frame": {"x":1680,"y":464,"w":277,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":277,"h":83},
+	"sourceSize": {"w":277,"h":83}
+},
+"Super_Rare.png":
+{
+	"frame": {"x":971,"y":1044,"w":666,"h":210},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":666,"h":210},
+	"sourceSize": {"w":667,"h":212}
+},
+"timer_ribbon.png":
+{
+	"frame": {"x":1096,"y":940,"w":579,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":579,"h":42},
+	"sourceSize": {"w":579,"h":42}
+},
+"timer_slate.png":
+{
+	"frame": {"x":1680,"y":549,"w":222,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":222,"h":34},
+	"sourceSize": {"w":222,"h":34}
+},
+"WisdomCube.png":
+{
+	"frame": {"x":1868,"y":752,"w":101,"h":102},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":4,"w":101,"h":102},
+	"sourceSize": {"w":107,"h":107}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"target": "paper2d", 
+	"image": "Azure_atlas-0.tga",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "0.83333",
+	"smartupdate": "$TexturePacker:SmartUpdate:4f6720e21e25b9c643568d0b9b386881:2d3eafe51a5e4edecdc36d5eb060446b:e4b1d6be41eca6bb47dc79d59e078f22$"
+}
+}
