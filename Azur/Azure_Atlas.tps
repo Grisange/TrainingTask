@@ -108,7 +108,7 @@
             <key>sizeConstraints</key>
             <enum type="AlgorithmSettings::SizeConstraints">POT</enum>
             <key>forceSquared</key>
-            <false/>
+            <true/>
             <key>maxRects</key>
             <struct type="AlgorithmMaxRectsSettings">
                 <key>heuristic</key>
@@ -142,7 +142,7 @@
         <key>outputFormat</key>
         <enum type="SettingsBase::OutputFormat">RGBA8888</enum>
         <key>alphaHandling</key>
-        <enum type="SettingsBase::AlphaHandling">ClearTransparentPixels</enum>
+        <enum type="SettingsBase::AlphaHandling">ReduceBorderArtifacts</enum>
         <key>contentProtection</key>
         <struct type="ContentProtection">
             <key>key</key>
@@ -159,7 +159,7 @@
         <key>globalSpriteSettings</key>
         <struct type="SpriteSettings">
             <key>scale</key>
-            <double>0.83333</double>
+            <double>1</double>
             <key>scaleMode</key>
             <enum type="ScaleMode">Smooth</enum>
             <key>extrude</key>
@@ -169,7 +169,7 @@
             <key>trimMargin</key>
             <uint>1</uint>
             <key>trimMode</key>
-            <enum type="SpriteSettings::TrimMode">Trim</enum>
+            <enum type="SpriteSettings::TrimMode">None</enum>
             <key>tracerTolerance</key>
             <int>200</int>
             <key>heuristicMask</key>
@@ -196,26 +196,6 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">Task_2/Smart_Packer/Build_active.png</key>
-            <key type="filename">Task_2/Smart_Packer/Build_nonactive.png</key>
-            <key type="filename">Task_2/Smart_Packer/Orders_active.png</key>
-            <key type="filename">Task_2/Smart_Packer/Orders_nonactive.png</key>
-            <key type="filename">Task_2/Smart_Packer/Retire_active.png</key>
-            <key type="filename">Task_2/Smart_Packer/Retire_nonactive.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>56,43,111,85</rect>
-                <key>scale9Paddings</key>
-                <rect>56,43,111,85</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
             <key type="filename">Task_2/Smart_Packer/Button_under.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -225,9 +205,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>609,281,1218,563</rect>
+                <rect>327,30,654,59</rect>
                 <key>scale9Paddings</key>
-                <rect>609,281,1218,563</rect>
+                <rect>327,30,654,59</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -248,7 +228,7 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">Task_2/Smart_Packer/Exchange_active.png</key>
+            <key type="filename">Task_2/Smart_Packer/Cross.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -257,13 +237,13 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>46,43,93,85</rect>
+                <rect>4,4,8,8</rect>
                 <key>scale9Paddings</key>
-                <rect>46,43,93,85</rect>
+                <rect>4,4,8,8</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">Task_2/Smart_Packer/Exchange_nonactive.png</key>
+            <key type="filename">Task_2/Smart_Packer/Exit_line_neat.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -272,16 +252,14 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>42,42,85,85</rect>
+                <rect>106,15,213,29</rect>
                 <key>scale9Paddings</key>
-                <rect>42,42,85,85</rect>
+                <rect>106,15,213,29</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">Task_2/Smart_Packer/Item_tab_base.png</key>
-            <key type="filename">Task_2/Smart_Packer/Item_tab_idle.png</key>
-            <key type="filename">Task_2/Smart_Packer/Ship_tab_base.png</key>
-            <key type="filename">Task_2/Smart_Packer/Ship_tab_idle.png</key>
+            <key type="filename">Task_2/Smart_Packer/Item_tab_idle_bottom.png</key>
+            <key type="filename">Task_2/Smart_Packer/active_tab_bottom.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -290,9 +268,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>83,25,166,50</rect>
+                <rect>83,24,166,47</rect>
                 <key>scale9Paddings</key>
-                <rect>83,25,166,50</rect>
+                <rect>83,24,166,47</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -301,7 +279,7 @@
                 <key>pivotPoint</key>
                 <point_f>0.5,1</point_f>
                 <key>spriteScale</key>
-                <double>0.1</double>
+                <double>1</double>
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
@@ -371,6 +349,11 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">Task_2/Smart_Packer/ava_1.png</key>
+            <key type="filename">Task_2/Smart_Packer/ava_2.png</key>
+            <key type="filename">Task_2/Smart_Packer/ava_3.png</key>
+            <key type="filename">Task_2/Smart_Packer/ava_4.png</key>
+            <key type="filename">Task_2/Smart_Packer/ava_5.png</key>
             <key type="filename">Task_2/Smart_Packer/avatar_placeholder.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -402,7 +385,6 @@
                 <false/>
             </struct>
             <key type="filename">Task_2/Smart_Packer/build_btn.png</key>
-            <key type="filename">Task_2/Smart_Packer/exchange_btn.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -462,6 +444,21 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">Task_2/Smart_Packer/cross_plus.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>20,20,40,40</rect>
+                <key>scale9Paddings</key>
+                <rect>20,20,40,40</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">Task_2/Smart_Packer/decor_shipbuild.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -492,7 +489,7 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">Task_2/Smart_Packer/frame_bg.png</key>
+            <key type="filename">Task_2/Smart_Packer/heavybutton_flip.psd</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -501,9 +498,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>503,285,1007,569</rect>
+                <rect>83,48,166,95</rect>
                 <key>scale9Paddings</key>
-                <rect>503,285,1007,569</rect>
+                <rect>83,48,166,95</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -522,7 +519,7 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">Task_2/Smart_Packer/medalofhonor_slate.png</key>
+            <key type="filename">Task_2/Smart_Packer/info.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -531,9 +528,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>111,23,221,45</rect>
+                <rect>318,163,635,327</rect>
                 <key>scale9Paddings</key>
-                <rect>111,23,221,45</rect>
+                <rect>318,163,635,327</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -567,7 +564,52 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">Task_2/Smart_Packer/prize_icon.png</key>
+            <key type="filename">Task_2/Smart_Packer/popup_bg.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>155,99,309,199</rect>
+                <key>scale9Paddings</key>
+                <rect>155,99,309,199</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Task_2/Smart_Packer/popup_confirm_button.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>47,19,94,37</rect>
+                <key>scale9Paddings</key>
+                <rect>47,19,94,37</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Task_2/Smart_Packer/popup_esc_button.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>17,12,35,24</rect>
+                <key>scale9Paddings</key>
+                <rect>17,12,35,24</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Task_2/Smart_Packer/prize_frame.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -582,7 +624,7 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">Task_2/Smart_Packer/roundroundbabyroundround.png</key>
+            <key type="filename">Task_2/Smart_Packer/resources_slate.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -591,9 +633,39 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>25,25,51,51</rect>
+                <rect>352,167,703,335</rect>
                 <key>scale9Paddings</key>
-                <rect>25,25,51,51</rect>
+                <rect>352,167,703,335</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Task_2/Smart_Packer/rounder.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>27,27,53,53</rect>
+                <key>scale9Paddings</key>
+                <rect>27,27,53,53</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Task_2/Smart_Packer/sidetab_active.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>56,43,111,85</rect>
+                <key>scale9Paddings</key>
+                <rect>56,43,111,85</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
