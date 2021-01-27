@@ -665,33 +665,6 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Experimental/ChaosCloth/ChaosCloth.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "0.1",
-				"FriendlyName": "Chaos Cloth",
-				"Description": "Adds Chaos Cloth Module.",
-				"Category": "Physics",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"IsBetaVersion": true,
-				"Modules": [
-					{
-						"Name": "ChaosCloth",
-						"Type": "Runtime",
-						"LoadingPhase": "PostConfigInit"
-					}
-				]
-			}
-		},
-		{
 			"File": "../../../Engine/Plugins/Experimental/ChaosClothEditor/ChaosClothEditor.uplugin",
 			"Descriptor": 
 			{
@@ -720,6 +693,33 @@
 					{
 						"Name": "ChaosCloth",
 						"Enabled": true
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Experimental/ChaosCloth/ChaosCloth.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "0.1",
+				"FriendlyName": "Chaos Cloth",
+				"Description": "Adds Chaos Cloth Module.",
+				"Category": "Physics",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"IsBetaVersion": true,
+				"Modules": [
+					{
+						"Name": "ChaosCloth",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit"
 					}
 				]
 			}
@@ -1224,6 +1224,42 @@
 			}
 		},
 		{
+			"File": "../../../Engine/Plugins/MagicLeap/MagicLeapPassableWorld/MagicLeapPassableWorld.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Magic Leap Passable World",
+				"Description": "Shared world experiences on XR devices supported by Magic Leap.",
+				"Category": "Augmented Reality",
+				"CreatedBy": "Magic Leap, Inc.",
+				"CreatedByURL": "http://magicleap.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": true,
+				"SupportedTargetPlatforms": [
+					"Lumin",
+					"Mac",
+					"Win64"
+				],
+				"Modules": [
+					{
+						"Name": "MagicLeapARPin",
+						"Type": "Runtime",
+						"LoadingPhase": "PreDefault"
+					},
+					{
+						"Name": "MagicLeapSharedWorld",
+						"Type": "Runtime",
+						"LoadingPhase": "Default"
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../Engine/Plugins/MagicLeap/MagicLeap/MagicLeap.uplugin",
 			"Descriptor": 
 			{
@@ -1448,42 +1484,6 @@
 							"Mac",
 							"Lumin"
 						]
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/MagicLeap/MagicLeapPassableWorld/MagicLeapPassableWorld.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Magic Leap Passable World",
-				"Description": "Shared world experiences on XR devices supported by Magic Leap.",
-				"Category": "Augmented Reality",
-				"CreatedBy": "Magic Leap, Inc.",
-				"CreatedByURL": "http://magicleap.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": true,
-				"SupportedTargetPlatforms": [
-					"Lumin",
-					"Mac",
-					"Win64"
-				],
-				"Modules": [
-					{
-						"Name": "MagicLeapARPin",
-						"Type": "Runtime",
-						"LoadingPhase": "PreDefault"
-					},
-					{
-						"Name": "MagicLeapSharedWorld",
-						"Type": "Runtime",
-						"LoadingPhase": "Default"
 					}
 				]
 			}
@@ -1987,38 +1987,6 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Online Subsystem",
-				"Description": "Shared code for interacting online subsystem implementations.",
-				"Category": "Online Platform",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "OnlineSubsystem",
-						"Type": "Runtime",
-						"LoadingPhase": "PostConfigInit"
-					}
-				],
-				"LocalizationTargets": [
-					{
-						"Name": "OnlineSubsystem",
-						"LoadingPolicy": "Always"
-					}
-				]
-			}
-		},
-		{
 			"File": "../../../Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin",
 			"Descriptor": 
 			{
@@ -2050,6 +2018,38 @@
 					{
 						"Name": "OnlineSubsystemUtils",
 						"Enabled": true
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Online Subsystem",
+				"Description": "Shared code for interacting online subsystem implementations.",
+				"Category": "Online Platform",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "OnlineSubsystem",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit"
+					}
+				],
+				"LocalizationTargets": [
+					{
+						"Name": "OnlineSubsystem",
+						"LoadingPolicy": "Always"
 					}
 				]
 			}
@@ -2218,37 +2218,6 @@
 							"Win64",
 							"Mac",
 							"Linux"
-						]
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Apple Movie Player",
-				"Description": "Apple Platform Movie Player using AVPlayer library",
-				"Category": "Movie Players",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "AppleMoviePlayer",
-						"Type": "RuntimeNoCommandlet",
-						"LoadingPhase": "PreLoadingScreen",
-						"WhitelistPlatforms": [
-							"IOS",
-							"TVOS",
-							"Mac"
 						]
 					}
 				]
@@ -2539,6 +2508,76 @@
 			}
 		},
 		{
+			"File": "../../../Engine/Plugins/Runtime/Oculus/OculusVR/OculusVR.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.51.0",
+				"FriendlyName": "Oculus VR",
+				"Description": "Support for Oculus headsets and controllers",
+				"Category": "Virtual Reality",
+				"CreatedBy": "Oculus",
+				"CreatedByURL": "https://www.oculus.com/",
+				"DocsURL": "https://developer.oculus.com/documentation/unreal/latest/concepts/unreal-engine/",
+				"MarketplaceURL": "",
+				"SupportURL": "https://forums.oculusvr.com/developer/categories/unreal",
+				"EnabledByDefault": true,
+				"CanContainContent": true,
+				"SupportedTargetPlatforms": [
+					"Win32",
+					"Win64",
+					"Android"
+				],
+				"Modules": [
+					{
+						"Name": "OculusHMD",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit",
+						"WhitelistPlatforms": [
+							"Win64",
+							"Win32",
+							"Android"
+						]
+					},
+					{
+						"Name": "OculusInput",
+						"Type": "Runtime",
+						"LoadingPhase": "Default",
+						"WhitelistPlatforms": [
+							"Win64",
+							"Win32",
+							"Android"
+						]
+					},
+					{
+						"Name": "OculusMR",
+						"Type": "Runtime",
+						"LoadingPhase": "PostEngineInit",
+						"WhitelistPlatforms": [
+							"Win64",
+							"Win32",
+							"Android"
+						]
+					},
+					{
+						"Name": "OculusEditor",
+						"Type": "Editor",
+						"LoadingPhase": "Default",
+						"WhitelistPlatforms": [
+							"Win64"
+						]
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "ProceduralMeshComponent",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../Engine/Plugins/Runtime/PhysXVehicles/PhysXVehicles.uplugin",
 			"Descriptor": 
 			{
@@ -2618,6 +2657,75 @@
 						"Name": "SoundFields",
 						"Type": "Runtime",
 						"LoadingPhase": "PreDefault"
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "SteamVR",
+				"Description": "Support for the SteamVR API",
+				"Category": "Virtual Reality",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": true,
+				"SupportedTargetPlatforms": [
+					"Win32",
+					"Win64",
+					"Linux"
+				],
+				"Modules": [
+					{
+						"Name": "SteamVR",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit",
+						"WhitelistPlatforms": [
+							"Win64",
+							"Win32",
+							"Linux"
+						]
+					},
+					{
+						"Name": "SteamVRInput",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit",
+						"WhitelistPlatforms": [
+							"Win64",
+							"Win32"
+						]
+					},
+					{
+						"Name": "SteamVRInputDevice",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit",
+						"WhitelistPlatforms": [
+							"Win64",
+							"Win32"
+						]
+					},
+					{
+						"Name": "SteamVREditor",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "PostEngineInit",
+						"WhitelistPlatforms": [
+							"Win64",
+							"Win32"
+						]
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "ProceduralMeshComponent",
+						"Enabled": true
 					}
 				]
 			}
@@ -2789,6 +2897,36 @@
 						],
 						"BlacklistTargets": [
 							"Server"
+						]
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Windows Movie Player",
+				"Description": "Windows Specific Movie Player using Media Foundation",
+				"Category": "Movie Players",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "WindowsMoviePlayer",
+						"Type": "RuntimeNoCommandlet",
+						"LoadingPhase": "PreLoadingScreen",
+						"WhitelistPlatforms": [
+							"Win64",
+							"Win32"
 						]
 					}
 				]
