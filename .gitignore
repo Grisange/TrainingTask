@@ -72,3 +72,11 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+StarCraftLike_SS/Saved/AutoScreenshot.png
+StarCraftLike_SS/Intermediate/CachedAssetRegistry.bin
+Azur/AzurLane_UI/Saved/StagedBuilds/.DS_Store
+Azur/AzurLane_UI/Saved/Cooked/.DS_Store
+Azur/.DS_Store
+StarCraftLike_SS/Saved/AutoScreenshot.png
+StarCraftLike_SS/Intermediate/CachedAssetRegistry.bin
+Azur/.DS_Store
